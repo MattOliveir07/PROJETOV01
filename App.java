@@ -1,4 +1,10 @@
 package projetoV01;
+// Matheus de Jesus Oliveira
+//Alessandro Lira Novaes
+//Gabriela Rodrigues Oliveira
+//Andre Buzarca Lopes
+//Caroline Andrade Silva
+
 
 import java.util.List;
 import java.util.Scanner;
@@ -9,9 +15,10 @@ public class App {
 	        Faculdade faculdade = new Faculdade("Impacta");
 
 	        faculdade.carregarDadosArquivo(
-	            "C:\\Users\\mathe\\OneDrive\\¡rea de Trabalho\\3 Semestre\\Estrutura de Dados\\projetoV01/Diciplinas.txt", 
-	            "C:\\Users\\mathe\\OneDrive\\¡rea de Trabalho\\3 Semestre\\Estrutura de Dados\\projetoV01/Estudantes.txt", 
-	            "C:\\Users\\mathe\\OneDrive\\¡rea de Trabalho\\3 Semestre\\Estrutura de Dados/Matriculas.txt"
+			"....caminho\files/Diciplinas.txt"
+	            "C:\\Users\\mathe\\OneDrive\\√Årea de Trabalho\\3 Semestre\\Estrutura de Dados\\projetoV01/Diciplinas.txt", 
+	            "C:\\Users\\mathe\\OneDrive\\√Årea de Trabalho\\3 Semestre\\Estrutura de Dados\\projetoV01/Estudantes.txt", 
+	            "C:\\Users\\mathe\\OneDrive\\√Årea de Trabalho\\3 Semestre\\Estrutura de Dados/Matriculas.txt"
 	        );
 
 	        Scanner scanner = new Scanner(System.in);
@@ -22,7 +29,7 @@ public class App {
 
 	        while(systemStatus) {
 	            System.out.println(
-	                "Digite:\n1 - Para Listar os usuarios\n2 - Listar os cÛdigos das disciplinas\n3 - Listar informaÁıes dos estudantes matriculados\n4 - Listar todas as informaÁıes das disciplinas em que um determinado estudante est· matriculado\n5 - SAIR"
+	                "Digite:\n1 - Para Listar os usuarios\n2 - Listar os c√≥digos das disciplinas\n3 - Listar informa√ß√µes dos estudantes matriculados\n4 - Listar todas as informa√ß√µes das disciplinas em que um determinado estudante est√° matriculado\n5 - SAIR"
 	            );
 	    
 	            int escolhaDoUsuario = scanner.nextInt();
@@ -96,7 +103,7 @@ public class App {
 	                break;
 	    
 	                default: 
-	                    System.out.println("Escolha n„o permitida");
+	                    System.out.println("Escolha n√£o permitida");
 	                break;
 	            }
 	        }
