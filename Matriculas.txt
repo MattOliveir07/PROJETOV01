@@ -1,0 +1,7 @@
+91194290:Estrutura de Dados
+81051880:Estrutura de Dados
+15648987:Estrutura de Dados
+01456987:Programação Orientada a Objetos
+01648795:Sistemas Operacionais
+01798651:Banco de Dados
+01365489:Ciencia de Dados
